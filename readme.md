@@ -48,3 +48,7 @@ or
     semanticFilter()
     .method(["val"])
 ```
+
+
+### Additionally
+You can use just access to kind names with `kindNames`

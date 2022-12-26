@@ -13,5 +13,9 @@
     "filter"
   ],
   "author": "siniradam <koray@ohshiftlabs.com> (https://github.com/siniradam/)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:siniradam/nostr-filters.git"
+  }
 }
