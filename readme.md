@@ -26,6 +26,41 @@ let myfilter = filter("semantic")
   .build();
 ```
 
+This should return this;
+
+```json
+{
+    "authors": [
+        "authorPubKey1",
+        "authorPubKey2",
+        "authorPubKey3"
+    ],
+    "since": 1672344233,
+    "until": 1672085033,
+    "limit": 10,
+    "kinds": [
+        1,
+        44,
+        7,
+        40,
+        41
+    ],
+    "ids": [
+        "ID2",
+        "ID3"
+    ],
+    "#e": [
+        "EventID1",
+        "EventID2",
+        "EventID3"
+    ],
+    "#p": [
+        "Pub1",
+        "Pub2"
+    ]
+}
+```
+
 ## Plain (dumb) Approach
 
 ```js
